@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit CRM Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <img scr="logo.jpg">
+    <div class="login-container">
+        <div class="logo">RECRUIT CRM</div>
+        <h2>Log In to your account</h2>
+        <p>Ensure you log in to access your account.</p>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <span class="error" id="emailError">The email field is required.</span>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Your Password" required>
+            </div>
+            <div class="actions">
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+            <button class="sso-btn">log in using the unified sign-on system</button>
+            <p class="signup">New to Recruit CRM? <a href="#">Sign Up</a></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
